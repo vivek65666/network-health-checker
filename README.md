@@ -28,6 +28,8 @@ python netcheck.py --latency 1000 --cert-days 30
   ALERT [akamai.com] HTTP status 403
 ```
 
+   ![Output](output.png)
+
 ## Future Improvements
 - Repeat checks on an interval
 - Email / Slack alerts
