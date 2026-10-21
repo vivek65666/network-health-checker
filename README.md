@@ -22,12 +22,14 @@ Python (socket, ssl, urllib, argparse, logging). No external dependencies.
 ```
 
 ## Sample Output
+
 ```
 [github.com] IP=20.207.73.82 DNS=7ms TCP=29ms HTTP=200 (115ms) TLSv1.3 cert=39d
 [akamai.com] IP=23.206.173.26 DNS=8ms TCP=25ms HTTP=403 (215ms) TLSv1.3 cert=181d
   ALERT [akamai.com] HTTP status 403
-![Output](netcheck/output.png)
 ```
+
+![Output](netcheck/output.png)
 
 ## Future Improvements
 - Repeat checks on an interval
