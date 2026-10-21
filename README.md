@@ -16,9 +16,9 @@ Python (socket, ssl, urllib, argparse, logging). No external dependencies.
 
 ## Run
 ```
-python netcheck.py
-python netcheck.py github.com akamai.com
-python netcheck.py --latency 1000 --cert-days 30
+   python netcheck/netcheck.py
+   python netcheck/netcheck.py github.com akamai.com
+   python netcheck/netcheck.py --latency 1000 --cert-days 30
 ```
 
 ## Sample Output
